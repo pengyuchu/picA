@@ -3,11 +3,14 @@
     <a href="https://github.com/pengyuchu/picA" target="_blank">
       <img width="100%" src="https://github.com/pengyuchu/picA/assets/7012874/df958eb7-8766-4b5c-8d4a-5cb6133a7795"></a>
   </p>
+  <a href="https://doi.org/10.5281/zenodo.8218304"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.8218304.svg" alt="DOI"></a>
 <!-- <div> -->
     <!-- <a href=""><img src="" alt="Docker Pulls"></a> -->
     <!-- <br> -->
 <!-- </div> -->
 </div>
+
+
 
 <div align="center">
 <a href="https://github.com/pengyuchu/picA">PicA</a> is an AI-powered and user-friendly image annotation tool designed to simplify the process of preparing image datasets for machine learning projects. With a focus on versatility and efficiency, picA offers a range of annotation features tailored to different use cases, including object counting, object detection, instance segmentation, semantic segmentation, and panoptic segmentation.
@@ -160,7 +163,7 @@ If you use this annotation tool in your research, please cite this project.
 ```
 @software{PicA_Image_Annotation_Toolbox_2023,
   author = {Pengyu Chu},
-  doi = {10.5281/zenodo.1234},
+  doi = {10.5281/zenodo.8218304},
   month = {07},
   title = {{PicA: An AI-powered Image Annotation Toolbox}},
   url = {https://github.com/pengyuchu/picA},
