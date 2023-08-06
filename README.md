@@ -9,7 +9,10 @@
 <!-- </div> -->
 </div>
 
+<div align="center">
 [PicA](https://github.com/pengyuchu/picA) is an AI-powered and user-friendly image annotation tool designed to simplify the process of preparing image datasets for machine learning projects. With a focus on versatility and efficiency, picA offers a range of annotation features tailored to different use cases, including object counting, object detection, instance segmentation, semantic segmentation, and panoptic segmentation.
+</div>
+</br>
 
 <div align="center">
     <img width="100%" src="https://github.com/pengyuchu/picA/assets/7012874/7d1cc933-5cc5-45f3-9652-0d73382ae0e3" />
@@ -44,7 +47,7 @@
 - [ ] Keypoint annotation supports.
 - [ ] Rotated bounding box annotation supports.
 
-## Installlation
+## Installlation :scream:
 
 See below for a quickstart installation or it's recommended to directly pulling a docker file.
 
@@ -64,7 +67,7 @@ pip install -r requirements.txt
 
 TBD.
 
-## Getting Started
+## Getting Started :runner:
 
 ### Launch
 
@@ -76,7 +79,7 @@ python main.py
 ```
 
 ### Create or Import a project
-To create a new project, click `File -> New Project` to select a folder that contains image data. PicA officially supports `.jpg`, `jpeg`, `png`, and `bmp` image formats.
+To create a new project, click `File -> New Project` to select a folder that contains image data. PicA officially supports `jpg`, `jpeg`, `png`, and `bmp` image formats.
 
 ```
 Project Name
@@ -115,20 +118,21 @@ All annotations will be preserved within the context of the **Project 1**, provi
 ### Operation
 In `picA`, interactions can be categorized into two distinct operations: **File or Category Selection** and **Annotation Manipulation**.
 
-#### File or Category Selection:
-This operation is accessible through the side panel. Here, users can seamlessly navigate between different files and efficiently manage categories. Within this panel, you have the capability to create, delete, and modify categories. Additionally, the ability to create instances offers for **Instance and Panoptic Segmentation**. 
+#### File or Category Selection
+This operation is accessible through the side panel. Here, users can seamlessly navigate between different files and efficiently manage categories. Within this panel, you have the capability to create, delete, and modify categories. Additionally, the ability to create instances offers for **Instance and Panoptic Segmentation**.
+ 
 
-#### Annotation Manipulation:
+#### Annotation Manipulation
 Found at the bottom panel, this operation encompasses the core of annotation activities. It's divided into two primary modes: `Select` and `Draw`. The `Select` mode empowers users to highlight, modify, and delete existing annotations, as well as reassign them to different categories. On the other hand, the `Draw` mode employs distinct terminology tailored to specific annotation tasks, such as `Click`, `Rectangle`, and `Polygon`.
 
 
-### Smart Annotation :star2:
+### :tada: Smart Annotation :tada:
 Under `Smart Annotation` menu, `picA` supports `Superpixel` and `AI model` two ways to help the annotation tasks (`Superpixel` only supports segmentation tasks.). By checking either options,  action buttons will appear at the **botton panel**.
 
 `picA` officially supports annotation tasks for **Obejct Counting**, **Object Detection**, **Instance Segmentation**, **Semantic Segmentation** and **Panoptic Segmentation**.
 
 <div align="center">
-    <img width="1024" src="https://github.com/pengyuchu/picA/assets/7012874/5b810b09-ff28-4ca6-a78a-d4d0cca8c81f">
+    <img width="1024" src="https://github.com/pengyuchu/picA/assets/7012874/178348fa-051d-4ce4-a6bc-1eb61888aad3">
 </div>
 
 ### Save
