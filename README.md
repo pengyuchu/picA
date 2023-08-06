@@ -10,7 +10,7 @@
 </div>
 
 <div align="center">
-[PicA](https://github.com/pengyuchu/picA) is an AI-powered and user-friendly image annotation tool designed to simplify the process of preparing image datasets for machine learning projects. With a focus on versatility and efficiency, picA offers a range of annotation features tailored to different use cases, including object counting, object detection, instance segmentation, semantic segmentation, and panoptic segmentation.
+<a href="https://github.com/pengyuchu/picA">PicA</a> is an AI-powered and user-friendly image annotation tool designed to simplify the process of preparing image datasets for machine learning projects. With a focus on versatility and efficiency, picA offers a range of annotation features tailored to different use cases, including object counting, object detection, instance segmentation, semantic segmentation, and panoptic segmentation.
 </div>
 </br>
 
