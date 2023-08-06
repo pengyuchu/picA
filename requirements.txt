@@ -1,0 +1,10 @@
+scipy
+scikit-image
+numpy
+PyYAML
+Pillow
+matplotlib
+opencv-python>=4.0
+dearpygui>=1.9
+torch>=1.10
+torchvision>=0.10

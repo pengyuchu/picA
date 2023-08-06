@@ -1,0 +1,5 @@
+name: picA
+models: 
+  - name: custom_model
+    path: /path/to/custom_model
+    description: This is customized model.
