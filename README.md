@@ -1,21 +1,21 @@
 <div align="center">
   <p>
     <a href="https://github.com/pengyuchu/picA" target="_blank">
-      <img width="100%" src=""></a>
+      <img width="100%" src="https://github.com/pengyuchu/picA/assets/7012874/df958eb7-8766-4b5c-8d4a-5cb6133a7795"></a>
   </p>
-<br>
 <!-- <div> -->
     <!-- <a href=""><img src="" alt="Docker Pulls"></a> -->
     <!-- <br> -->
 <!-- </div> -->
-<br>
 </div>
 
 [PicA](https://github.com/pengyuchu/picA) is an AI-powered and user-friendly image annotation tool designed to simplify the process of preparing image datasets for machine learning projects. With a focus on versatility and efficiency, picA offers a range of annotation features tailored to different use cases, including object counting, object detection, instance segmentation, semantic segmentation, and panoptic segmentation.
 
-<img width="100%" src=""></a>
+<div align="center">
+    <img width="100%" src="https://github.com/pengyuchu/picA/assets/7012874/7d1cc933-5cc5-45f3-9652-0d73382ae0e3" />
+</div>
 
-## Key Features
+## :star2: Key Features :star2:
 
 - **Versatile Annotation**
 
@@ -33,22 +33,22 @@
 
     Easily export your annotations in the COCO (Common Objects in Context) format, a widely used standard in the computer vision community. Your annotated data is ready for integration into your machine learning pipeline.
 
-## Roadmap
+## Roadmap :eyes:
 ### Wait to Test
 - [x] COCO format annotations export.
-- [] Category visibility control.
-- [] Customized model integration.
+- [ ] Category visibility control.
+- [ ] Customized model integration.
 
 ### Short-Term Goals
-- [] Nested category supports.
-- [] Keypoint annotation supports.
-- [] Rotated bounding box annotation supports.
+- [ ] Nested category supports.
+- [ ] Keypoint annotation supports.
+- [ ] Rotated bounding box annotation supports.
 
 ## Installlation
 
 See below for a quickstart installation or it's recommended to directly pulling a docker file.
 
-#### Code Install
+### Code Install
 
 Pip installation need Python>=3.8 and requirements below:
 * Python >= 3.8
@@ -60,13 +60,13 @@ cd /path/to/picA
 pip install -r requirements.txt
 ```
 
-#### Docker Install
+### Docker Install
 
 TBD.
 
 ## Getting Started
 
-#### Launch
+### Launch
 
 `picA` may be launched directly in the Command Line Interface (CLI):
 
@@ -75,7 +75,7 @@ cd /path/to/picA
 python main.py
 ```
 
-#### Create or Import a project
+### Create or Import a project
 To create a new project, click `File -> New Project` to select a folder that contains image data. PicA officially supports `.jpg`, `jpeg`, `png`, and `bmp` image formats.
 
 ```
@@ -103,7 +103,7 @@ When importing an existing project with `File -> Import Project`, ensure that yo
 
 If **creating** or **importing** a project encounters issues, a simple solution is to relaunch the application.
 
-#### Merge two projects
+### Merge two projects
 Annotation integration is also available. Upon opening the **Project 1** window, you can opt to `Import Project` to merge **Project 2** with the existing one. However, please exercise caution and consider the following guidelines:
 
 - Merging is supported only for projects with the same annotation tasks.
@@ -112,43 +112,41 @@ Annotation integration is also available. Upon opening the **Project 1** window,
 
 All annotations will be preserved within the context of the **Project 1**, providing a consolidated and organized annotation repository.
 
-#### Operation
+### Operation
 In `picA`, interactions can be categorized into two distinct operations: **File or Category Selection** and **Annotation Manipulation**.
 
-##### File or Category Selection:
+#### File or Category Selection:
 This operation is accessible through the side panel. Here, users can seamlessly navigate between different files and efficiently manage categories. Within this panel, you have the capability to create, delete, and modify categories. Additionally, the ability to create instances offers for **Instance and Panoptic Segmentation**. 
 
-##### Annotation Manipulation:
+#### Annotation Manipulation:
 Found at the bottom panel, this operation encompasses the core of annotation activities. It's divided into two primary modes: `Select` and `Draw`. The `Select` mode empowers users to highlight, modify, and delete existing annotations, as well as reassign them to different categories. On the other hand, the `Draw` mode employs distinct terminology tailored to specific annotation tasks, such as `Click`, `Rectangle`, and `Polygon`.
 
 
-#### Smart Annotation
+### Smart Annotation :star2:
 Under `Smart Annotation` menu, `picA` supports `Superpixel` and `AI model` two ways to help the annotation tasks (`Superpixel` only supports segmentation tasks.). By checking either options,  action buttons will appear at the **botton panel**.
 
 `picA` officially supports annotation tasks for **Obejct Counting**, **Object Detection**, **Instance Segmentation**, **Semantic Segmentation** and **Panoptic Segmentation**.
 
-<img width="1024" src="">
+<div align="center">
+    <img width="1024" src="https://github.com/pengyuchu/picA/assets/7012874/5b810b09-ff28-4ca6-a78a-d4d0cca8c81f">
+</div>
 
-#### Save
+### Save
 At present, `picA` does not feature an autosave function. Users are required to save their projects manually, and the progress will also be automatically saved upon exiting `picA`.
 
-#### Shortcut
+### Shortcut :page_with_curl:
 
 | Key  | Action
 |-------- | --------------------- | 
-| `Enter`:leftwards_arrow_with_hook: or `Space` | Polygon Create |
+| :leftwards_arrow_with_hook: or `Space` | Polygon Create |
 | `Backspace` | Detete |
 | `Esc` | Cancel |
 | `w`, `s`, `a`, `d` | Move Image |
 | :arrow_up:, :arrow_down: | Zoom In / Out |
 | :arrow_left:, :arrow_right: | File Selection |
+ 
 
-
-
-
-#### 
-
-## FAQ
+## FAQ :grey_question:
 
 For picA bug reports and feature requests please visit [GitHub Issues](https://github.com/pengyuchu/picA/issues).
 
